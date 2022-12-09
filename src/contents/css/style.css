@@ -115,7 +115,6 @@ ul li {
         position: relative;
     }
 
-
     .mobile_menu_item {
         display: flex;
         flex-direction: row;
@@ -127,11 +126,10 @@ ul li {
     }
 
     .mobile_menu_logo img {
-        width: 80px;
+        width: 65px;
 
     }
 
-   
     .mobile_menu_btn p {
         margin-bottom: 0;
         margin-right: 1rem;
@@ -181,7 +179,7 @@ ul li {
         justify-content: center;
 
         position: absolute;
-        top: 14%;
+        top: 180px;
         left: 50%;
         transform: translate(-50%, -50%);
         width: 50%;
@@ -216,7 +214,8 @@ ul li {
 .footer .footer_content ul li {
     font-size: 22px;
 }
-.footer_copyright{
+
+.footer_copyright {
     text-align: center;
     background-color: var(--color-bg1);
     margin: 2rem auto 0;
@@ -315,11 +314,12 @@ ul li {
 }
 
 /* ----------------- author --------------------- */
-.profile{
+.profile {
     display: none;
 }
-@media only screen and (min-width:768px) and (max-width:1024px) {
-   
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+
     .header_content {
         width: 100%;
         display: flex;
@@ -358,7 +358,7 @@ ul li {
         gap: 2rem;
         margin-top: 3rem;
     }
-    
+
     /* ------------------ author --------------- */
     .profile {
         background-color: var(--color-bg1);
@@ -391,25 +391,256 @@ ul li {
         display: flex;
         gap: 1rem;
     }
-    .profile_socials{
+
+    .profile_socials {
         font-size: 2rem;
         margin-bottom: 0;
     }
-    .profile .facebook{
+
+    .profile .facebook {
         color: #016cea;
         background-color: white;
         border-radius: 50%;
-     
+
     }
-    .profile .youtube{
+
+    .profile .youtube {
         background-color: rgb(255, 255, 255);
         border-radius: 50%;
         color: red;
     }
-    .profile .telegram{
+
+    .profile .telegram {
         color: #1053a0;
         background-color: white;
         border-radius: 50%;
-     
+
     }
+}
+
+@media only screen and (min-width:1024px) and (max-width:1439px) {
+    .header .logo img {
+        /* width: 100%; */
+        width: 23%;
+        height: 100%;
+    }
+
+    .header_content {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .home_page_content {
+        display: flex;
+        gap: 2rem;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .homepage_content_item .card {
+        width: 47.5%;
+        background-color: var(--color-bg1);
+    }
+
+    .home_page_content .homepage_content_item {
+        display: flex;
+        gap: 3rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+
+    /* ------------------ author --------------- */
+    .profile {
+        background-color: var(--color-bg1);
+        width: 250px;
+        height: 320px;
+        padding: 3rem 2rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        margin-top: 3rem;
+
+    }
+
+    .profile .profile_img img {
+        width: 150px;
+        border-radius: 50%;
+
+    }
+
+    .profile_info {
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .profile_socials {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .profile_socials {
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+
+    .profile .facebook {
+        color: #016cea;
+        background-color: white;
+        border-radius: 50%;
+
+    }
+
+    .profile .youtube {
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+        color: red;
+    }
+
+    .profile .telegram {
+        color: #1053a0;
+        background-color: white;
+        border-radius: 50%;
+
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .header .logo img {
+        /* width: 100%; */
+        width: 23%;
+        height: 100%;
+    }
+
+    .header_content {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .home_page_content {
+        display: flex;
+        gap: 2rem;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .homepage_content_item .card {
+        width: 31.22%;
+        background-color: var(--color-bg1);
+    }
+
+    .home_page_content .homepage_content_item {
+        display: flex;
+        gap: 3rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+
+    /* ------------------ author --------------- */
+    .profile {
+        background-color: var(--color-bg1);
+        width: 250px;
+        height: 320px;
+        padding: 3rem 2rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        margin-top: 3rem;
+
+    }
+
+    .profile .profile_img img {
+        width: 150px;
+        border-radius: 50%;
+
+    }
+
+    .profile_info {
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .profile_socials {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .profile_socials {
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+
+    .profile .facebook {
+        color: #016cea;
+        background-color: white;
+        border-radius: 50%;
+
+    }
+
+    .profile .youtube {
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+        color: red;
+    }
+
+    .profile .telegram {
+        color: #1053a0;
+        background-color: white;
+        border-radius: 50%;
+
+    }
+}
+
+/* ========== button next prev ============ */
+.homepage_content_buttons_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+    margin-top: 3rem;
+}
+
+.homepage_content_buttons_content button {
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: var(--color-bg1);
+    color: white;
 }

@@ -9,6 +9,7 @@ const WebRoute = () => {
                 <Route path='/' element={<Index />} />
             </Routes>
         </React.Fragment>
+
     )
 }
 

@@ -15,6 +15,7 @@ function App() {
       </BrowserRouter>
       <Footer />
     </React.Fragment>
+
   );
 }
 
