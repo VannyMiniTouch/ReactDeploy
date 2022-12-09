@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ReactDeploy/static/css/main.1eea5bd8.css",
+    "main.js": "/ReactDeploy/static/js/main.e065caac.js",
+    "static/media/author.png": "/ReactDeploy/static/media/author.7c732868b44b1f8954d9.png",
+    "static/media/Battambang-Regular.ttf": "/ReactDeploy/static/media/Battambang-Regular.634ead527a23f7e6bfab.ttf",
+    "static/media/logo.png": "/ReactDeploy/static/media/logo.80144436691125f4be04.png",
+    "static/media/thumbnail.jpeg": "/ReactDeploy/static/media/thumbnail.f2f3cfdf684ab28448b8.jpeg",
+    "index.html": "/ReactDeploy/index.html",
+    "main.1eea5bd8.css.map": "/ReactDeploy/static/css/main.1eea5bd8.css.map",
+    "main.e065caac.js.map": "/ReactDeploy/static/js/main.e065caac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1eea5bd8.css",
+    "static/js/main.e065caac.js"
+  ]
+}
