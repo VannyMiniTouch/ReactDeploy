@@ -10,9 +10,7 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
-
 const Index = () => {
-
   return (
     <React.Fragment>
       <div className="home_page">
