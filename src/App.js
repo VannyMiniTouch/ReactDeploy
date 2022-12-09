@@ -10,12 +10,11 @@ function App() {
   return (
     <React.Fragment>
       <Header />
-      <BrowserRouter>
+      <BrowserRouter basename='/ReactDeploy'>
         <WebRoute />
       </BrowserRouter>
       <Footer />
     </React.Fragment>
-
   );
 }
 
