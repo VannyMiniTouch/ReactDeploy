@@ -74,10 +74,8 @@ ul li {
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-
-
 }
 
 .header .logo img {
@@ -93,6 +91,9 @@ ul li {
     margin: 0;
     padding: 0;
     flex-wrap: wrap;
+}
+.menus ul li {
+    cursor: pointer;
 }
 
 .menus ul li.active {
@@ -569,7 +570,7 @@ ul li {
         flex-wrap: wrap;
         align-content: flex-start;
         justify-content: flex-start;
-        align-items: center;
+        align-items: flex-start;
         gap: 2rem;
         margin-top: 3rem;
     }
