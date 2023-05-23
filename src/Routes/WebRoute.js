@@ -14,8 +14,6 @@ const WebRoute = () => {
 
                 {/* Client Route */}
                 <Route path='/tutorial' element={<Tutorial />} />
-
-
                 {/* Admin Route */}
                 <Route path='/create-post' element={<Create />} />
             </Routes>

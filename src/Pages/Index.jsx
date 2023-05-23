@@ -1,14 +1,9 @@
-
-import React from 'react'
-import thumbnail from '../contents/images/thumbnail.jpeg'
-import author from '../contents/images/author.png'
-import {
-  FaFacebook,
-  FaTelegram,
-  FaYoutube
-} from 'react-icons/fa';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import React from "react";
+import thumbnail from "../contents/images/thumbnail.jpeg";
+import author from "../contents/images/author.png";
+import { FaFacebook, FaTelegram, FaYoutube } from "react-icons/fa";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 const Index = () => {
   return (
@@ -20,11 +15,14 @@ const Index = () => {
               <h3>
                 {/* Vanny's  */}
                 {/* <FaBeer /> */}
-                Blog</h3>
+                Blog
+              </h3>
             </div>
             <div className="home_page_suggest">
               <ul>
-                <li>Javascript <i className='fas fa-wrench'></i> </li>
+                <li>
+                  Javascript <i className="fas fa-wrench"></i>{" "}
+                </li>
                 <li>React JS</li>
                 <li>PHP</li>
                 <li>Laravel</li>
@@ -32,10 +30,13 @@ const Index = () => {
             </div>
             <div className="home_page_search">
               <FontAwesomeIcon icon={faSearch} className="iconSearch" />
-              <input className='form-control' placeholder='Search Title' type="text" />
+              <input
+                className="form-control"
+                placeholder="Search Title"
+                type="text"
+              />
             </div>
             <div className="home_page_content">
-
               <div className="hompage_content_left">
                 <div className="profile">
                   <div className="profile_img">
@@ -50,11 +51,9 @@ const Index = () => {
                     <p className='youtube'><FaYoutube /></p>
                     <p className='telegram'><FaTelegram /></p> */}
 
-                    <FaFacebook className='facebook' />
-                    <FaYoutube className='youtube' />
-                    <FaTelegram className='telegram' />
-
-
+                    <FaFacebook className="facebook" />
+                    <FaYoutube className="youtube" />
+                    <FaTelegram className="telegram" />
                   </div>
                 </div>
 
@@ -63,7 +62,6 @@ const Index = () => {
                   <div className="home_page_ads_container">
                     <div className="home_page_ads_content">
                       <div className="home_page_ads_item">
-
                         {/* <div className="profile">
                           <div className="profile_img">
                             <img src={author} alt="" />
@@ -78,39 +76,46 @@ const Index = () => {
                             <p>Telegram</p>
                           </div>
                         </div> */}
-
-
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
 
-
               <div className="homepage_content_item">
-                <div className="card" >
-                  <img className="card-img-top" src={thumbnail} alt="Card cap" />
+                <div className="card">
+                  <img
+                    className="card-img-top"
+                    src={thumbnail}
+                    alt="Card cap"
+                  />
                   <div className="card-body">
                     <h5 className="card-title">What's Java Script</h5>
                   </div>
                 </div>
 
-                <div className="card" >
-                  <img className="card-img-top" src={thumbnail} alt="Card cap" />
+                <div className="card">
+                  <img
+                    className="card-img-top"
+                    src={thumbnail}
+                    alt="Card cap"
+                  />
                   <div className="card-body">
                     <h5 className="card-title">What's Java Script</h5>
                   </div>
                 </div>
 
-                <div className="card" >
-                  <img className="card-img-top" src={thumbnail} alt="Card cap" />
+                <div className="card">
+                  <img
+                    className="card-img-top"
+                    src={thumbnail}
+                    alt="Card cap"
+                  />
                   <div className="card-body">
                     <h5 className="card-title">What's Java Script</h5>
                   </div>
                 </div>
-
               </div>
-
             </div>
             <div className="homepage_content_buttons">
               <div className="homepage_content_buttons_container">
@@ -124,7 +129,7 @@ const Index = () => {
         </div>
       </div>
     </React.Fragment>
-  )
-}
+  );
+};
 
-export default Index
+export default Index;
