@@ -2,7 +2,8 @@ import React from "react";
 import logo from "../contents/images/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
-// import { Link } from "react-router-dom";
+import { Link, NavLink, Outlet } from "react-router-dom";
+
 class Header extends React.Component {
   constructor(props) {
     super(props);
@@ -25,13 +26,22 @@ class Header extends React.Component {
           <div className="container">
             <div className="header_content">
               <div className="logo">
-                <img src={logo} alt="" />
+                <Link to="/">
+                  <img src={logo} alt="" />
+                </Link>
               </div>
               <div className="menus">
                 <ul>
-                  <li className="active">Home</li>
+                  <li>
+                    <NavLink to="/">Home</NavLink>
+                  </li>
+                  {/* <li className="active">Home</li> */}
 
-                  <li>Tutorials</li>
+                  {/* <li>Tutorials</li> */}
+                  <li>
+                    <NavLink to="/tutorial">Tutorials</NavLink>
+                  </li>
+
                   {/* <li>Courses</li> */}
                   <li>Contacts</li>
                   <li>About Us</li>

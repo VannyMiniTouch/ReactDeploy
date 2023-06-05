@@ -4,9 +4,6 @@ import React, { useState } from "react";
 import { useRef } from "react";
 import { Editor } from "@tinymce/tinymce-react";
 
-//html parse
-// import parse from 'html-react-parser';
-
 //style
 import "../../../contents/css/admin_style.css";
 

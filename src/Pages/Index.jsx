@@ -128,6 +128,7 @@ const Index = () => {
           </div>
         </div>
       </div>
+      {/* <Outlet /> */}
     </React.Fragment>
   );
 };
