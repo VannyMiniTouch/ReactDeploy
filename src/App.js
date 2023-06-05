@@ -10,7 +10,6 @@ function App() {
       <BrowserRouter basename="/ReactDeploy">
         <WebRoute />
       </BrowserRouter>
-      {/* <Footer /> */}
     </React.Fragment>
   );
 }
