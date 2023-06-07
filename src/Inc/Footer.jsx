@@ -17,7 +17,6 @@ const Footer = () => {
               <li>Tweeter</li>
               <li>Telegram</li>
               <li>Facebook</li>
-              <Link to="/create-post">Create Post</Link>
             </ul>
           </div>
         </div>

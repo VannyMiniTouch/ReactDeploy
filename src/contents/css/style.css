@@ -100,6 +100,10 @@ ul li {
 .menus ul li {
   cursor: pointer;
 }
+.menus ul li a {
+  text-decoration: none;
+  color: white;
+}
 
 .menus ul li.active {
   background-color: var(--color-bg2);
@@ -635,3 +639,46 @@ ul li {
   color: white;
   border-color: #fff;
 }
+
+/* =========================== Login Path ======================== */
+.login {
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.login .login-container {
+  background-color: var(--color-bg1);
+  padding: 2rem;
+  border-radius: 10px;
+  border: 1px solid white;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.login-header h3 {
+  text-align: center;
+}
+
+.login-body {
+  padding: 2rem 0;
+}
+.login-body .form-group-btn{
+  display: flex;
+  justify-content: center;
+}
+.login-body button{
+  margin-top: 2rem;
+  background-color: var(--color-bg2);
+  color: white;
+  width: 40%;
+  /* border: 1px solid rgb(160, 160, 160); */
+}
+.login-body button:hover{
+  border: 1px solid white;
+}
+

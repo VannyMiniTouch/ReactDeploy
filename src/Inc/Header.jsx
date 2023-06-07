@@ -48,7 +48,8 @@ class Header extends React.Component {
                 </ul>
                 <ul>
                   <li>Register</li>
-                  <li>Login</li>
+                  {/* <li>Login</li> */}
+                  <li><Link to="/login">Login</Link> </li>
                 </ul>
               </div>
             </div>
@@ -70,7 +71,9 @@ class Header extends React.Component {
                   </p>
                 </div>
                 <ul>
-                  <li className="active">Home</li>
+                  <NavLink to="/">
+                    Home
+                  </NavLink>
                   <li>Tutorials</li>
                   {/* <li>Courses</li> */}
                   <li>Contacts</li>
