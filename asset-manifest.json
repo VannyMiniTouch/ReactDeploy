@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ReactDeploy/static/css/main.17f73be2.css",
-    "main.js": "/ReactDeploy/static/js/main.c36c7ac4.js",
+    "main.css": "/ReactDeploy/static/css/main.29d5c09f.css",
+    "main.js": "/ReactDeploy/static/js/main.dcc422aa.js",
     "static/media/author.png": "/ReactDeploy/static/media/author.7c732868b44b1f8954d9.png",
     "static/media/Battambang-Regular.ttf": "/ReactDeploy/static/media/Battambang-Regular.634ead527a23f7e6bfab.ttf",
     "static/media/logo.png": "/ReactDeploy/static/media/logo.80144436691125f4be04.png",
     "static/media/thumbnail.jpeg": "/ReactDeploy/static/media/thumbnail.f2f3cfdf684ab28448b8.jpeg",
     "index.html": "/ReactDeploy/index.html",
-    "main.17f73be2.css.map": "/ReactDeploy/static/css/main.17f73be2.css.map",
-    "main.c36c7ac4.js.map": "/ReactDeploy/static/js/main.c36c7ac4.js.map"
+    "main.29d5c09f.css.map": "/ReactDeploy/static/css/main.29d5c09f.css.map",
+    "main.dcc422aa.js.map": "/ReactDeploy/static/js/main.dcc422aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.17f73be2.css",
-    "static/js/main.c36c7ac4.js"
+    "static/css/main.29d5c09f.css",
+    "static/js/main.dcc422aa.js"
   ]
 }
