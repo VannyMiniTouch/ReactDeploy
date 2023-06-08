@@ -32,23 +32,14 @@ class Header extends React.Component {
               </div>
               <div className="menus">
                 <ul>
-                  <li>
-                    <NavLink to="/">Home</NavLink>
-                  </li>
+                  <li><NavLink to="/">Home</NavLink></li>
                   {/* <li className="active">Home</li> */}
-
-                  {/* <li>Tutorials</li> */}
-                  <li>
-                    <NavLink to="/tutorial">Tutorials</NavLink>
-                  </li>
-
-                  {/* <li>Courses</li> */}
-                  <li>Contacts</li>
-                  <li>About Us</li>
+                  <li><NavLink to="/tutorial">Tutorials</NavLink></li>
+                  <li><NavLink to="/contact">Contact</NavLink></li>
+                  <li><NavLink to="/about">About Us</NavLink></li>
                 </ul>
                 <ul>
                   <li>Register</li>
-                  {/* <li>Login</li> */}
                   <li><Link to="/login">Login</Link> </li>
                 </ul>
               </div>
@@ -71,13 +62,10 @@ class Header extends React.Component {
                   </p>
                 </div>
                 <ul>
-                  <NavLink to="/">
-                    Home
-                  </NavLink>
-                  <li>Tutorials</li>
-                  {/* <li>Courses</li> */}
-                  <li>Contacts</li>
-                  <li>About Us</li>
+                  <li><NavLink to="/"> Home</NavLink></li>
+                  <li><NavLink to="/tutorial">Tutorials</NavLink></li>
+                  <li><NavLink to="/contact">Contact</NavLink></li>
+                  <li><NavLink to="/about">About Us</NavLink></li>
                 </ul>
               </div>
             </div>
