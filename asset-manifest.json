@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ReactDeploy/static/css/main.8052e204.css",
-    "main.js": "/ReactDeploy/static/js/main.b02ec1c2.js",
+    "main.js": "/ReactDeploy/static/js/main.2dbed749.js",
     "static/media/author.png": "/ReactDeploy/static/media/author.7c732868b44b1f8954d9.png",
     "static/media/Battambang-Regular.ttf": "/ReactDeploy/static/media/Battambang-Regular.634ead527a23f7e6bfab.ttf",
     "static/media/logo.png": "/ReactDeploy/static/media/logo.80144436691125f4be04.png",
@@ -10,10 +10,10 @@
     "static/media/how_to_play_en.png": "/ReactDeploy/static/media/how_to_play_en.d3bf206e1bd56bea8273.png",
     "index.html": "/ReactDeploy/index.html",
     "main.8052e204.css.map": "/ReactDeploy/static/css/main.8052e204.css.map",
-    "main.b02ec1c2.js.map": "/ReactDeploy/static/js/main.b02ec1c2.js.map"
+    "main.2dbed749.js.map": "/ReactDeploy/static/js/main.2dbed749.js.map"
   },
   "entrypoints": [
     "static/css/main.8052e204.css",
-    "static/js/main.b02ec1c2.js"
+    "static/js/main.2dbed749.js"
   ]
 }
