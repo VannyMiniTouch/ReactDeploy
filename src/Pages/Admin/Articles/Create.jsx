@@ -6,6 +6,9 @@ import { Editor } from "@tinymce/tinymce-react";
 
 //style
 import "../../../contents/css/admin_style.css";
+import plen from "../../../contents/images/how_to_play_en.png";
+import plvn from"../../../contents/images/how_to_play_vn.png";
+
 
 const Create = () => {
   const editorRef = useRef(null);
@@ -46,6 +49,10 @@ const Create = () => {
               <div className="create_post_welcome">
                 <h2>Welcome Back Bro!</h2>
               </div>
+
+
+              <img src={plen} alt="" />
+              <img src={plvn} alt="" />
 
               <div className="create_post_title">
                 <label htmlFor="">Title</label>

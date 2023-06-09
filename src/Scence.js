@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+/* import React, { Component } from "react";
 
 import * as PIXI from "pixi.js";
 import { Application, Sprite, Assets } from "pixi.js";
@@ -23,11 +23,10 @@ class Scence extends Component {
     app.start();
   }
 
-  Jumping = () => {};
-
   render() {
     return <div className="main-game" ref={this.gameRef}></div>;
   }
 }
 
-export default Scence;
+// export default Scence;
+ */
